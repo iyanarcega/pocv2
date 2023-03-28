@@ -1,0 +1,215 @@
+{
+  "LANGUAGE": "English",
+  "APP_SEO": {
+    "title": "Rick & Morty",
+    "description": "PoC Angular + PWA + NgRx + Router State + Formly + NgRx-Entity with Rick&Morty API",
+    "keywords": [
+      "Angular",
+      "PWA",
+      "NgRx",
+      "Router State",
+      "Router",
+      "Formly",
+      "NgRx-Entity",
+      "Rick & Morty",
+      "Rick&Morty",
+      "Rick & Morty API",
+      "Rick&Morty API",
+      "Rick",
+      "Morty",
+      "Characters Rick&Morty",
+      "Characters Rick & Morty"
+    ],
+    "locale": "en_US",
+    "locale_alternate": "es_ES"
+  },
+  "CHARACTERS": {
+    "TITLE": "Characters",
+    "FILTER_CHARACTERS": "Filter Characters",
+    "LAST_KNOWN_LOCATION": "Last known location:",
+    "FIRST_SEEN": "First seen:",
+    "CHARACTER_INFO": "Character Info",
+    "CHARACTER_EPISODES": "Episodes with {{ name }}",
+    "SEO": {
+      "title": "Characters",
+      "description": "Characters list of Rick & Morty with filter and information of gender, species, type, origin and location",
+      "keywords": [
+        "Characters",
+        "Characters list of Rick&Morty",
+        "Characters list of Rick & Morty",
+        "All Characters of Rick&Morty"
+      ]
+    },
+    "SEO_DETAILS": {
+      "title": "{{ name }}",
+      "description": "Information about the character {{ name }} of Rick & Morty with gender, species, type, origin, location and the episodes list",
+      "keywords": [
+        "{{ name }}",
+        "Episodes with {{ name }}",
+        "Character",
+        "Rick&Morty Character",
+        "Character of Rick & Morty"
+      ]
+    },
+    "FIELDS": {
+      "NAME": "Name",
+      "STATUS": "Status",
+      "GENDER": "Gender",
+      "SPECIES": "Species",
+      "TYPE": "Type",
+      "ORIGIN": "Origin",
+      "LOCATION": "Location"
+    },
+    "PLACEHOLDERS": {
+      "STATUS": "Select a status",
+      "GENDER": "Select a gender",
+      "SPECIES": "Select a species"
+    },
+    "STATUS": {
+      "ALIVE": "Alive",
+      "DEAD": "Dead",
+      "UNKNOWN": "Unknown"
+    },
+    "GENDER": {
+      "FEMALE": "Female",
+      "MALE": "Male",
+      "GENDERLESS": "Genderless",
+      "UNKNOWN": "Unknown"
+    },
+    "SPECIES": {
+      "HUMAN": "Human",
+      "HUMANOID": "Humanoid",
+      "ALIEN": "Alien",
+      "POOPYBUTTHOLE": "Poopy butthole",
+      "MYTHOLOG": "Mytholog",
+      "MYTHOLOGICAL CREATURE": "Mythological creature",
+      "ANIMAL": "Animal",
+      "VAMPIRE": "Vampire",
+      "ROBOT": "Robot",
+      "PLANET": "Planet",
+      "CRONENBERG": "Cronenberg",
+      "DISEASE": "Disease",
+      "UNKNOWN": "Unknown"
+    }
+  },
+  "LOCATIONS": {
+    "TITLE": "Locations",
+    "FILTER_LOCATIONS": "Filter Locations",
+    "LOCATION_INFO": "Location Info",
+    "LOCATION_RESIDENTS": "Residents in {{ name }}",
+    "RESIDENTS": "{{ number }} Residents",
+    "NO_RESIDENTS": "No Residents",
+    "SEO": {
+      "title": "Locations",
+      "description": "Locations list of Rick & Morty with filter and information of name, type, dimension and residents",
+      "keywords": [
+        "Locations",
+        "Locations list of Rick&Morty",
+        "Locations list of Rick & Morty",
+        "All Locations of Rick&Morty"
+      ]
+    },
+    "SEO_DETAILS": {
+      "title": "{{ name }}",
+      "description": "Information about the location {{ name }} of Rick & Morty with name, type, dimension and the residents list",
+      "keywords": [
+        "{{ name }}",
+        "Residents in {{ name }}",
+        "Location",
+        "Rick&Morty Location",
+        "Location of Rick & Morty"
+      ]
+    },
+    "FIELDS": {
+      "NUM": "Num.",
+      "NAME": "Name",
+      "TYPE": "Type",
+      "DIMENSION": "Dimension",
+      "RESIDENTS": "Residents"
+    }
+  },
+  "EPISODES": {
+    "TITLE": "Episodes",
+    "FILTER_EPISODES": "Filter Episodes",
+    "EPISODE_INFO": "Episode Info",
+    "EPISODE_CHARACTERS": "Characters in {{ name }}",
+    "CHARACTERS": "{{ number }} Characters",
+    "NO_CHARATERS": "No Characters",
+    "SEO": {
+      "title": "Episodes",
+      "description": "Episodes of Rick & Morty with filter and information of number, episode, name, air date and characters",
+      "keywords": ["Episodes", "Episodes of Rick&Morty", "Episodes of Rick & Morty", "All Episodes of Rick&Morty"]
+    },
+    "SEO_DETAILS": {
+      "title": "{{ name }}",
+      "description": "Information about the episode {{ name }} of Rick & Morty with number, episode, name, air date and the characters list",
+      "keywords": [
+        "{{ name }}",
+        "Characters in {{ name }} episode",
+        "Episode",
+        "Rick&Morty Episode",
+        "Episode of Rick & Morty"
+      ]
+    },
+    "FIELDS": {
+      "NUM": "Num.",
+      "EPISODE": "Episode",
+      "NAME": "Name",
+      "AIR_DATE": "Air Date",
+      "CHARACTERS": "Characters"
+    }
+  },
+  "NOT_FOUND": {
+    "TITLE": "Not found"
+  },
+  "BUTTONS": {
+    "ACCEPT_DEFAULT": "Accept",
+    "CANCEL_DEFAULT": "Cancel",
+    "CLOSE_DEFAULT": "Close",
+    "SEND": "Send",
+    "NEXT": "Next",
+    "BACK": "Back",
+    "CONFIRM": "Confirm",
+    "CONTINUE": "Continue"
+  },
+  "CRUD": {
+    "CREATE": "New",
+    "DELETE": "Delete",
+    "DELETE2": "Remove",
+    "EDIT": "Edit",
+    "COPY": "Copy",
+    "MOVE": "Move",
+    "MODIFY": "Modify",
+    "SEE": "See",
+    "PDF": "Visualize",
+    "STOP": "Stop",
+    "SEND": "Send"
+  },
+  "FORMS": {
+    "NOT_FOUND": "No matches found",
+    "CLEAR_FILTER": "Clear Filter"
+  },
+  "VALIDATIONS": {
+    "MIN_LENGTH_NOT_TEXT": "This field must have at least {{number}} numeric characters.",
+    "MIN_LENGTH": "This field must have at least {{number}} characters",
+    "MAX_LENGTH": "This field must be less than {{number}} characters",
+    "MIN": "This field must be greater than {{number}}",
+    "MAX": "This field must be less than {{number}}",
+    "MIN_OR_EQUALS": "This field must be greater than or equal to {{number}}",
+    "MAX_OR_EQUALS": "This field must be less than or equal to {{number}}",
+    "RANGE": "This field must be greater than or equal to {{min}} and less than or equal to {{max}}",
+    "MIN_DATE": "Date must be greater than {{otherDate}}",
+    "MAX_DATE": "Date must be less than {{otherDate}}",
+    "REQUIRED": "This field is required",
+    "EMAIL": "The email address is not valid",
+    "PATTERN": "This field must comply with the specified format",
+    "PHONE_NOT_VALID": "The phone is not valid",
+    "DNI": "The DNI is not valid",
+    "SPANISH_ID": "The document ID is not valid"
+  },
+  "ERRORS": {
+    "OK": "Operation completed successfully",
+    "RETRY": "If this problem persists, please try again later or contact us",
+    "BACKEND": "There has been a problem connecting to our servers"
+  }
+}

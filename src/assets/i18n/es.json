@@ -1,0 +1,222 @@
+{
+  "LANGUAGE": "Español",
+  "APP_SEO": {
+    "title": "Rick & Morty",
+    "description": "PoC Angular + PWA + NgRx + Router State + Formly + NgRx-Entity con Rick&Morty API",
+    "keywords": [
+      "Angular",
+      "PWA",
+      "NgRx",
+      "Router State",
+      "Router",
+      "Formly",
+      "NgRx-Entity",
+      "Rick & Morty",
+      "Rick&Morty",
+      "Rick & Morty API",
+      "Rick&Morty API",
+      "Rick",
+      "Morty",
+      "Characters Rick&Morty",
+      "Characters Rick & Morty",
+      "Personajes Rick&Morty",
+      "Personajes Rick & Morty"
+    ],
+    "locale": "es_ES",
+    "locale_alternate": "en_US"
+  },
+  "CHARACTERS": {
+    "TITLE": "Personajes",
+    "FILTER_CHARACTERS": "Filtrar Personajes",
+    "LAST_KNOWN_LOCATION": "Última localización:",
+    "FIRST_SEEN": "Visto por primera vez en:",
+    "CHARACTER_INFO": "Información de Personaje",
+    "CHARACTER_EPISODES": "Episodios con {{ name }}",
+    "SEO": {
+      "title": "Personajes",
+      "description": "Listado de personajes de Rick & Morty con filtrado e información del género, especie, tipo, origen y localización",
+      "keywords": [
+        "Personajes",
+        "Listado de personajes de Rick&Morty",
+        "Listado de personajes de Rick & Morty",
+        "Todos los personajes de Rick&Morty"
+      ]
+    },
+    "SEO_DETAILS": {
+      "title": "{{ name }}",
+      "description": "Información sobre el personaje {{ name }} de Rick & Morty con género, especie, tipo, origen, localización y la lista de episodios",
+      "keywords": [
+        "{{ name }}",
+        "Episodios con {{ name }}",
+        "Personaje",
+        "Personaje de Rick&Morty",
+        "Personaje de Rick & Morty"
+      ]
+    },
+    "FIELDS": {
+      "NAME": "Nombre",
+      "STATUS": "Estado",
+      "GENDER": "Género",
+      "SPECIES": "Especie",
+      "TYPE": "Tipo",
+      "ORIGIN": "Origen",
+      "LOCATION": "Localización"
+    },
+    "PLACEHOLDERS": {
+      "STATUS": "Seleccione un estado",
+      "GENDER": "Seleccione un género",
+      "SPECIES": "Seleccione una especie"
+    },
+    "STATUS": {
+      "ALIVE": "Vivo",
+      "DEAD": "Muerto",
+      "UNKNOWN": "Desconocido"
+    },
+    "GENDER": {
+      "FEMALE": "Femenino",
+      "MALE": "Masculino",
+      "GENDERLESS": "Sin género",
+      "UNKNOWN": "Desconocido"
+    },
+    "SPECIES": {
+      "HUMAN": "Humana",
+      "HUMANOID": "Humanoide",
+      "ALIEN": "Alien",
+      "POOPYBUTTHOLE": "Ojete sucio",
+      "MYTHOLOG": "Mitológica",
+      "MYTHOLOGICAL CREATURE": "Mitológica",
+      "ANIMAL": "Animal",
+      "VAMPIRE": "Vampiro",
+      "ROBOT": "Robot",
+      "PLANET": "Planeta",
+      "CRONENBERG": "Cronenberg",
+      "DISEASE": "Enfermedad",
+      "UNKNOWN": "Desconocida"
+    }
+  },
+  "LOCATIONS": {
+    "TITLE": "Localizaciones",
+    "FILTER_LOCATIONS": "Filtrar Localizaciones",
+    "LOCATION_INFO": "Información de Localización",
+    "LOCATION_RESIDENTS": "Residentes en {{ name }}",
+    "RESIDENTS": "{{ number }} Residentes",
+    "NO_RESIDENTS": "Sin Residentes",
+    "SEO": {
+      "title": "Localizaciones",
+      "description": "Listado de localizaciones de Rick & Morty con filtrado e información del nombre, tipo, dimensión y residentes",
+      "keywords": [
+        "Localizaciones",
+        "Listado de localizaciones de Rick&Morty",
+        "Listado de localizaciones de Rick & Morty",
+        "Todas las localizaciones de Rick&Morty"
+      ]
+    },
+    "SEO_DETAILS": {
+      "title": "{{ name }}",
+      "description": "Información sobre la localización {{ name }} de Rick & Morty con nombre, tipo, dimensión y lista de residentes",
+      "keywords": [
+        "{{ name }}",
+        "Residentes en {{ name }}",
+        "Localización",
+        "Localización de Rick&Morty",
+        "Localización de Rick & Morty"
+      ]
+    },
+    "FIELDS": {
+      "NUM": "Num.",
+      "NAME": "Nombre",
+      "TYPE": "Tipo",
+      "DIMENSION": "Dimensión",
+      "RESIDENTS": "Residentes"
+    }
+  },
+  "EPISODES": {
+    "TITLE": "Episodios",
+    "FILTER_EPISODES": "Filtrar Episodios",
+    "EPISODE_INFO": "Información del Episodio",
+    "EPISODE_CHARACTERS": "Personajes en {{ name }}",
+    "CHARACTERS": "{{ number }} Personajes",
+    "NO_CHARATERS": "Sin Personajes",
+    "SEO": {
+      "title": "Episodios",
+      "description": "Listado de episodios de Rick & Morty con filtrado e información del número, episodio, nombre, fecha de emisión y personajes",
+      "keywords": [
+        "Episodios",
+        "Listado de episodios de Rick&Morty",
+        "Listado de episodios de Rick & Morty",
+        "Todos los episodios de Rick&Morty"
+      ]
+    },
+    "SEO_DETAILS": {
+      "title": "{{ name }}",
+      "description": "Información sobre el episodio {{ name }} de Rick & Morty con número, episodio, nombre, fecha de emisión y lista de personajes",
+      "keywords": [
+        "{{ name }}",
+        "Personajes en el episodio {{ name }}",
+        "Episodio",
+        "Episodio de Rick&Morty",
+        "Episodio de Rick & Morty"
+      ]
+    },
+    "FIELDS": {
+      "NUM": "Num.",
+      "EPISODE": "Episodio",
+      "NAME": "Nombre",
+      "AIR_DATE": "Fecha Emisión",
+      "CHARACTERS": "Personajes"
+    }
+  },
+  "NOT_FOUND": {
+    "TITLE": "No encontrado"
+  },
+  "BUTTONS": {
+    "ACCEPT_DEFAULT": "Aceptar",
+    "CANCEL_DEFAULT": "Cancelar",
+    "CLOSE_DEFAULT": "Cerrar",
+    "SEND": "Enviar",
+    "NEXT": "Siguiente",
+    "BACK": "Volver",
+    "CONFIRM": "Confirmar",
+    "CONTINUE": "Continuar"
+  },
+  "CRUD": {
+    "CREATE": "Nuevo",
+    "DELETE": "Borrar",
+    "DELETE2": "Eliminar",
+    "EDIT": "Editar",
+    "COPY": "Copiar",
+    "MOVE": "Mover",
+    "MODIFY": "Modificar",
+    "SEE": "Consultar",
+    "PDF": "Visualizar",
+    "STOP": "Detener",
+    "SEND": "Enviar"
+  },
+  "FORMS": {
+    "NOT_FOUND": "No se encontraron coincidencias",
+    "CLEAR_FILTER": "Limpiar Filtro"
+  },
+  "VALIDATIONS": {
+    "MIN_LENGTH_NOT_TEXT": "Este campo debe tener al menos {{number}} caracteres númericos.",
+    "MIN_LENGTH": "Este campo debe tener al menos {{number}} caracteres",
+    "MAX_LENGTH": "Este campo debe ser menor de {{number}} caracteres",
+    "MIN": "Este campo debe ser mayor que {{number}}",
+    "MAX": "Este campo debe ser menor que {{number}}",
+    "MIN_OR_EQUALS": "Este campo debe ser mayor o igual que {{number}}",
+    "MAX_OR_EQUALS": "Este campo debe ser menor o igual que {{number}}",
+    "RANGE": "Este campo debe ser mayor o igual que {{min}} y menor o igual que {{max}}",
+    "MIN_DATE": "La fecha debe ser mayor que la {{otherDate}}",
+    "MAX_DATE": "La fecha debe ser menor que la {{otherDate}}",
+    "REQUIRED": "Este campo es obligatorio",
+    "EMAIL": "La dirección de correo electrónico no es válida",
+    "PATTERN": "Este campo debe de cumplir el formato especificado",
+    "PHONE": "El teléfono no es válido",
+    "DNI": "El DNI no es válido",
+    "SPANISH_ID": "El documento de identidad no es válido"
+  },
+  "ERRORS": {
+    "OK": "Operación finalizada satisfactoriamente",
+    "RETRY": "Si este problema persiste, vuelva a intentarlo más tarde o ponte en contacto con nosotros",
+    "BACKEND": "Se ha producido un problema conectando con nuestros servidores"
+  }
+}

@@ -1,0 +1,23 @@
+<div class="w-full p-4 bg-white dark:bg-gray-700 dark:text-gray-300 sm:rounded-md sm:shadow" *transloco="let t">
+  <div class="flex justify-between">
+    <h1 class="mb-2 text-lg font-bold text-black dark:text-gray-300">{{ t('CHARACTERS.FILTER_CHARACTERS') }}</h1>
+    <button type="button" class="btn btn-primary" (click)="resetFilter()">
+      {{ t('FORMS.CLEAR_FILTER') }}
+    </button>
+  </div>
+
+  <dynamic-form [fields]="form" [filter]="'onChange'" (modelChanges)="newFilter($event)"></dynamic-form>
+</div>
+<app-progress-bar *ngIf="loading$ | ngrxPush"></app-progress-bar>
+
+<ng-container *ngrxLet="characters$ as characters">
+  <div class="grid gap-4 mx-4 mt-4 sm:mx-0 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+    <a *ngFor="let character of characters; trackBy: trackByFn" [routerLink]="'' + character.id | localize">
+      <app-character-card [character]="character" (hoverLocation)="prefetchLocation($event)"></app-character-card>
+    </a>
+  </div>
+
+  <div class="mt-4" *ngIf="pages$ | ngrxPush as pages">
+    <app-paginator [currentPage]="page$ | ngrxPush" [pages]="pages" (page)="filterPageChange($event)"></app-paginator>
+  </div>
+</ng-container>

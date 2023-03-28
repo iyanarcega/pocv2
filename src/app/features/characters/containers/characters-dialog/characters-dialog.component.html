@@ -1,0 +1,25 @@
+<lazy-modal #modalComponent>
+  <app-progress-bar *ngIf="loading$ | ngrxPush"></app-progress-bar>
+
+  <div class="flex items-center w-full">
+    <div class="flex items-center justify-between pr-4 space-x-2 sm:space-x-4">
+      <div class="font-medium text-gray-900 sm:text-lg dark:text-gray-100">{{ data.title }}</div>
+      <span class="px-4 py-1 text-xs text-center text-white bg-indigo-400 rounded sm:text-base" *transloco="let t">
+        {{ data.characterIds.length }} {{ t('CHARACTERS.TITLE') }}
+      </span>
+    </div>
+    <svg-icon
+      class="ml-auto text-gray-500 cursor-pointer fill-current hover:text-gray-700 dark:text-gray-500 dark:hover:text-gray-400"
+      [key]="'close'"
+      (click)="close()"
+    ></svg-icon>
+  </div>
+
+  <ng-container *ngIf="characters$ | ngrxPush as characters">
+    <div class="grid gap-4 mt-4 xl:grid-cols-2">
+      <div class="w-full" *ngFor="let characterId of data.characterIds; trackBy: trackByFn">
+        <app-character-mini-card [character]="characters[characterId]" (click)="close()"></app-character-mini-card>
+      </div>
+    </div>
+  </ng-container>
+</lazy-modal>
